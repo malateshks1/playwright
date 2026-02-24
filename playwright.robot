@@ -1,7 +1,7 @@
 *** Settings ***
 Library    Browser
 
-Suite Setup    New Browser    headless=False
+Suite Setup    New Browser    headless=True
 Suite Teardown    Close Browser
 
 *** Test Cases ***
