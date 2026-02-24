@@ -1,0 +1,64 @@
+{"level":30,"time":"2026-02-23T14:57:09.693Z","pid":13392,"hostname":"Malatesh","msg":"Listening on 127.0.0.1:60752"}
+{"level":30,"time":"2026-02-23T14:57:09.932Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2026-02-23T14:57:10.227Z","pid":13392,"hostname":"Malatesh","msg":"Adding browser to stack: chromium, version: 145.0.7632.6"}
+{"level":30,"time":"2026-02-23T14:57:10.228Z","pid":13392,"hostname":"Malatesh","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2026-02-23T14:57:10.228Z","pid":13392,"hostname":"Malatesh","msg":"End of node method newBrowser"}
+{"level":30,"time":"2026-02-23T14:57:10.251Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:10.252Z","pid":13392,"hostname":"Malatesh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:10.258Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method newPage"}
+{"level":30,"time":"2026-02-23T14:57:10.259Z","pid":13392,"hostname":"Malatesh","msg":"currentBrowser: {\"name\":\"chromium\",\"browser\":{\"_type\":\"Browser\",\"_guid\":\"browser@0877c9fc91240b4ad397bbf926f5b475\"},\"headless\":false,\"_contextStack\":[],\"id\":\"browser=51b7ab9e-12d7-497f-8db0-61994e1271d8\"}"}
+{"level":30,"time":"2026-02-23T14:57:10.297Z","pid":13392,"hostname":"Malatesh","msg":"Setting default timeout for context context=4ea4fccf-d580-4d13-8a78-cce7b5e0c759 to 10000"}
+{"level":30,"time":"2026-02-23T14:57:10.298Z","pid":13392,"hostname":"Malatesh","msg":"Changed active context: context=4ea4fccf-d580-4d13-8a78-cce7b5e0c759"}
+{"level":30,"time":"2026-02-23T14:57:10.488Z","pid":13392,"hostname":"Malatesh","msg":"Video path: undefined"}
+{"level":30,"time":"2026-02-23T14:57:10.488Z","pid":13392,"hostname":"Malatesh","msg":"Changed active page"}
+{"level":30,"time":"2026-02-23T14:57:10.899Z","pid":13392,"hostname":"Malatesh","msg":"End of node method newPage"}
+{"level":30,"time":"2026-02-23T14:57:10.914Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-23T14:57:10.914Z","pid":13392,"hostname":"Malatesh","msg":"Strict mode is enabled, find Locator with id=user-name in page."}
+{"level":30,"time":"2026-02-23T14:57:10.974Z","pid":13392,"hostname":"Malatesh","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-23T14:57:10.982Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method fillText"}
+{"level":30,"time":"2026-02-23T14:57:10.982Z","pid":13392,"hostname":"Malatesh","msg":"Strict mode is enabled, find Locator with id=password in page."}
+{"level":30,"time":"2026-02-23T14:57:10.999Z","pid":13392,"hostname":"Malatesh","msg":"End of node method fillText"}
+{"level":30,"time":"2026-02-23T14:57:11.007Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method click"}
+{"level":30,"time":"2026-02-23T14:57:11.007Z","pid":13392,"hostname":"Malatesh","msg":"Strict mode is enabled, find Locator with id=login-button in page."}
+{"level":30,"time":"2026-02-23T14:57:11.116Z","pid":13392,"hostname":"Malatesh","msg":"End of node method click"}
+{"level":30,"time":"2026-02-23T14:57:11.125Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2026-02-23T14:57:11.125Z","pid":13392,"hostname":"Malatesh","msg":"Strict mode is enabled, find Locator with css=.inventory_list in page."}
+{"level":30,"time":"2026-02-23T14:57:11.135Z","pid":13392,"hostname":"Malatesh","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2026-02-23T14:57:11.146Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method getElements"}
+{"level":30,"time":"2026-02-23T14:57:11.146Z","pid":13392,"hostname":"Malatesh","msg":"Strict mode is disabled, return Locator: css=.inventory_list in page."}
+{"level":30,"time":"2026-02-23T14:57:11.146Z","pid":13392,"hostname":"Malatesh","msg":"Wait element to reach attached state."}
+{"level":30,"time":"2026-02-23T14:57:11.157Z","pid":13392,"hostname":"Malatesh","msg":"Found 1 elements."}
+{"level":30,"time":"2026-02-23T14:57:11.157Z","pid":13392,"hostname":"Malatesh","msg":"End of node method getElements"}
+{"level":30,"time":"2026-02-23T14:57:11.184Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.186Z","pid":13392,"hostname":"Malatesh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.190Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.192Z","pid":13392,"hostname":"Malatesh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.196Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.198Z","pid":13392,"hostname":"Malatesh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.203Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.206Z","pid":13392,"hostname":"Malatesh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.212Z","pid":13392,"hostname":"Malatesh","msg":"Changed active context: context=4ea4fccf-d580-4d13-8a78-cce7b5e0c759"}
+{"level":30,"time":"2026-02-23T14:57:11.212Z","pid":13392,"hostname":"Malatesh","msg":"Changing current active page: page=f7c7574e-2c7b-41e6-babc-f2712b4ca7fb"}
+{"level":30,"time":"2026-02-23T14:57:11.212Z","pid":13392,"hostname":"Malatesh","msg":"Changed active page"}
+{"level":30,"time":"2026-02-23T14:57:11.219Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method closeContext"}
+{"level":30,"time":"2026-02-23T14:57:11.229Z","pid":13392,"hostname":"Malatesh","msg":"Removed page=654d01f0-81ba-4dfc-80e2-07e277b17048 from context=4ea4fccf-d580-4d13-8a78-cce7b5e0c759 page stack"}
+{"level":30,"time":"2026-02-23T14:57:11.238Z","pid":13392,"hostname":"Malatesh","msg":"End of node method closeContext"}
+{"level":30,"time":"2026-02-23T14:57:11.249Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2026-02-23T14:57:11.648Z","pid":13392,"hostname":"Malatesh","msg":"End of node method closeBrowser"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12672:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13622:59)
+    at PlaywrightServer.setTimeout (C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13873:57)
+    at Object.onReceiveHalfClose (C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1464:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:595:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:635:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:394:18)
+    at ServerHttp2Stream.emit (node:events:520:35)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+=============================================================
+{"level":30,"time":"2026-02-23T14:57:11.662Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:11.662Z","pid":13392,"hostname":"Malatesh","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2026-02-23T14:57:12.540Z","pid":13392,"hostname":"Malatesh","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2026-02-23T14:57:12.540Z","pid":13392,"hostname":"Malatesh","msg":"End of node method closeAllBrowsers"}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.13.7 on win32)" generated="2026-02-23T20:27:08.534998" rpa="false" schemaversion="5">
+<suite id="s1" name="Playwright" source="C:\Users\malat\OneDrive\Desktop\Playwright">
+<suite id="s1-s1" name="Playwright" source="C:\Users\malat\OneDrive\Desktop\Playwright\playwright.robot">
+<kw name="New Browser" owner="Browser" type="SETUP">
+<msg time="2026-02-23T20:27:08.832879" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\malat\\OneDrive\\Desktop\\Playwright\\results\\browser\\traces\\temp\\dce576cf-578d-4730-b427-e9becf079b2c"}</msg>
+<msg time="2026-02-23T20:27:08.867155" level="INFO">Starting Browser process C:\Users\malat\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:60752</msg>
+<msg time="2026-02-23T20:27:10.230242" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\malat\\OneDrive\\Desktop\\Playwright\\results\\browser\\traces\\temp\\dce576cf-578d-4730-b427-e9becf079b2c"}</msg>
+<arg>headless=False</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2026-02-23T20:27:08.831950" elapsed="1.399556"/>
+</kw>
+<test id="s1-s1-t1" name="Login To Demo page" line="12">
+<kw name="New Page" owner="Browser">
+<msg time="2026-02-23T20:27:10.904483" level="INFO">Successfully initialized new page object and opened url: https://www.saucedemo.com/</msg>
+<msg time="2026-02-23T20:27:10.905153" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2026-02-23T20:27:10.254812" elapsed="0.650972"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-02-23T20:27:10.909799" level="INFO">Fills the text 'standard_user' in the given field.</msg>
+<arg>id=user-name</arg>
+<arg>standard_user</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-02-23T20:27:10.907200" elapsed="0.069665"/>
+</kw>
+<kw name="Fill Text" owner="Browser">
+<msg time="2026-02-23T20:27:10.979040" level="INFO">Fills the text 'secret_sauce' in the given field.</msg>
+<arg>id=password</arg>
+<arg>secret_sauce</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2026-02-23T20:27:10.977694" elapsed="0.023479"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2026-02-23T20:27:11.004046" level="INFO">Clicks the element 'id=login-button'.</msg>
+<arg>id=login-button</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2026-02-23T20:27:11.002230" elapsed="0.116754"/>
+</kw>
+<kw name="Wait For Elements State" owner="Browser">
+<msg time="2026-02-23T20:27:11.137746" level="INFO">Waited for Element with selector css=.inventory_list at state visible</msg>
+<arg>css=.inventory_list</arg>
+<arg>visible</arg>
+<tag>PageContent</tag>
+<tag>Wait</tag>
+<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
+<status status="PASS" start="2026-02-23T20:27:11.121605" elapsed="0.016752"/>
+</kw>
+<kw name="Get Elements" owner="Browser">
+<msg time="2026-02-23T20:27:11.159137" level="INFO">Found locator('.inventory_list').first() Locators successfully.</msg>
+<msg time="2026-02-23T20:27:11.160423" level="INFO">${items} = ['css=.inventory_list &gt;&gt; nth=0']</msg>
+<var>${items}</var>
+<arg>css=.inventory_list</arg>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns a reference to Playwright [https://playwright.dev/docs/api/class-locator|Locator]
+for all matched elements by ``selector``.</doc>
+<status status="PASS" start="2026-02-23T20:27:11.139666" elapsed="0.021609"/>
+</kw>
+<kw name="Get Length" owner="BuiltIn">
+<msg time="2026-02-23T20:27:11.164148" level="INFO">Length is 1.</msg>
+<msg time="2026-02-23T20:27:11.164772" level="INFO">${item_count} = 1</msg>
+<var>${item_count}</var>
+<arg>${items}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="PASS" start="2026-02-23T20:27:11.162770" elapsed="0.002499"/>
+</kw>
+<msg time="2026-02-23T20:27:11.201029" level="INFO">Switching context to context=4ea4fccf-d580-4d13-8a78-cce7b5e0c759 in CURRENT</msg>
+<msg time="2026-02-23T20:27:11.217750" level="INFO">Successfully changed active context: context=4ea4fccf-d580-4d13-8a78-cce7b5e0c759</msg>
+<msg time="2026-02-23T20:27:11.240658" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2026-02-23T20:27:10.232095" elapsed="0.934030"/>
+</test>
+<kw name="Close Browser" owner="Browser" type="TEARDOWN">
+<msg time="2026-02-23T20:27:11.649899" level="INFO">Closed browser</msg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-02-23T20:27:11.244411" elapsed="0.406251"/>
+</kw>
+<status status="PASS" start="2026-02-23T20:27:08.585968" elapsed="3.064943"/>
+</suite>
+<status status="PASS" start="2026-02-23T20:27:08.544695" elapsed="3.128846"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Playwright" id="s1" pass="1" fail="0" skip="0">Playwright</stat>
+<stat name="Playwright" id="s1-s1" pass="1" fail="0" skip="0">Playwright.Playwright</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
